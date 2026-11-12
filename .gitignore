@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+bin/
+obj/
+build/
+
+# Test outputs
+coverage/
+TestResults/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE temporary files
+.vs/
+
+# Qodo configuration (not used for this project)
+.qodo/
+
+# OS generated files
+.DS_Store
+Thumbs.db
